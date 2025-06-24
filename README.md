@@ -22,8 +22,14 @@ By completing this task, I gained practical experience in working with deep neur
 
 The entire project, including the Colab notebook (task3_neural_style_transfer.ipynb), input images (content.jpg and style.jpg), the generated output, and the proof screenshot, is well-documented and shared in my GitHub repository. This fulfills all the requirements for Task 3 of my CodTech AI internship.
 
-Image used in this task
+IMAGES USED IN THIS TASK:-
+
+
+
+
 ![Image](https://github.com/user-attachments/assets/e1b9d4ab-a2b6-4177-a5a5-d8cda6d9c106)
 ![Image](https://github.com/user-attachments/assets/b41b0604-4472-4e80-a09c-924c29be854d)
 
+
 OUTPUT
+![Image](https://github.com/user-attachments/assets/c4133f36-9868-41f4-ae2e-5c1881ce9f19)
